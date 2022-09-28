@@ -1,0 +1,299 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* NAVBAR */
+.navbar-brand img {
+  max-height: 55px;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+  color: #591019 !important;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: 700;
+  color: #591019 !important;
+}
+/* END NAVBAR */
+
+/* BANNER */
+.banner {
+  padding-top: 70px;
+}
+/* END BANNER */
+
+/* ABOUT */
+.about {
+  background-color: #ffffff;
+  padding: 32px 0;
+}
+
+.about-title h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+/* END ABOUT */
+
+/* PROMO */
+.promo {
+  background-color: #ffc107;
+  padding: 32px 0;
+}
+
+.promo img {
+  width: 215px;
+  height: 215px;
+}
+
+.promo-title h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+/* END PROMO */
+
+/* MENU */
+.menu {
+  background-color: #ffffff;
+  padding: 32px 0;
+}
+
+.menu-title h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.menu p {
+  margin-top: 12px;
+  font-size: 13px;
+}
+
+.menu img {
+  width: 215px;
+  height: 215px;
+}
+
+.menu .card {
+  border: none;
+  border-radius: 6px;
+  width: 215px;
+}
+
+.menu .card-body {
+  padding: 0;
+}
+
+.menu .card-footer {
+  padding: 0;
+  background-color: #ffc107;
+}
+/* END MENU */
+
+/* KEMITRAAN */
+.kemitraan {
+  background-color: #591019;
+  padding: 32px 0;
+}
+
+.kemitraan span {
+  text-align: center;
+  color: #ffc75f;
+  font-size: 175px;
+  font-weight: 900;
+  text-shadow: 0px 0px 15px #000000;
+}
+
+.kemitraan p {
+  color: #ffc75f;
+  font-size: 50px;
+  font-weight: 900;
+  text-shadow: 0px 0px 15px #000000;
+}
+/* END KEMITRAAN */
+
+/* LOCATION */
+.location {
+  background-color: #ffffff;
+  padding: 32px 0;
+}
+
+.location-title h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+/* END LOCATION */
+
+.section-news {
+  background-color: #591019;
+  padding: 32px 0;
+}
+
+.section-kemitraan {
+  background-color: #e9e9e9;
+  padding: 32px 0;
+}
+
+footer {
+  color: #ffffff;
+  background-color: #591019;
+  padding: 32px 0;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: -39px;
+}
+
+.news-card {
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.news-card img {
+  border-radius: 11px;
+}
+
+.news-card-body {
+  padding: 15px 0;
+}
+
+.news-card-body p {
+  text-align: justify;
+}
+
+.primary-btn {
+  background-color: #eb2326;
+  padding: 10px 30px;
+  border-radius: 11px;
+  color: #ffffff;
+}
+
+.secondary-btn {
+  background-color: #ffc107;
+  padding: 10px 30px;
+  border-radius: 11px;
+  color: #000000;
+  font-weight: 600;
+}
+
+.primary-btn:hover {
+  background-color: #eb2326;
+  padding: 10px 30px;
+  border-radius: 11px;
+  color: #ffffff;
+}
+
+.promo-banner {
+  color: #ffffff;
+  margin-top: 75px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/promo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.promo-page .card-footer button {
+  background: #ffc107;
+  border: none;
+  border-radius: 0;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.promo-page .card,
+.menu-page .card {
+  border: none;
+}
+
+.promo-page .card-body,
+.menu-page .card-body {
+  padding: 0;
+}
+
+.promo-page .card-footer {
+  padding: 0;
+}
+
+.menu-page .card-footer {
+  background: #ffc107;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+@media (max-width: 576px) {
+  .navbar-brand img {
+    max-height: 50px;
+  }
+
+  .banner-img {
+    margin-top: 75px;
+  }
+
+  .kemitraan span {
+    text-align: center;
+    color: #ffc75f;
+    font-size: 125px;
+    font-weight: 900;
+    text-shadow: 0px 0px 15px #000000;
+  }
+
+  .kemitraan p {
+    text-align: center;
+    color: #ffc75f;
+    font-size: 30px;
+    font-weight: 900;
+    text-shadow: 0px 0px 15px #000000;
+  }
+
+  .kemitraan a {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu-title h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .menu img {
+    width: 100%;
+    height: auto;
+  }
+
+  .menu .card {
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+  }
+
+  .menu p {
+    margin-top: 12px;
+    font-size: 15px;
+  }
+
+  .promo img {
+    width: 100%;
+    height: auto;
+  }
+
+  .promo-page .card-footer button {
+    background: #ffc107;
+    border: none;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+  }
+}
